@@ -1,0 +1,1 @@
+sample :perc_bell, rate: -0.5, finish: 0.03

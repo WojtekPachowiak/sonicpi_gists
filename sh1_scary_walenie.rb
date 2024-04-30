@@ -1,4 +1,4 @@
-# Scary 
+# Welcome to Sonic Pi
 
 set_volume! 2
 
@@ -7,7 +7,7 @@ define :sh1loop do |r|
   with_fx :hpf, cutoff: 70 do
     in_thread do
       loop do
-        with_fx :rlpf, res: 0.7, cutoff: 90 do /change cutoff to 70 to be less scary/
+        with_fx :rlpf, res: 0.7, cutoff: 90 do
           samp = :glitch_perc4
           s = 0.2
           f = 0.9
